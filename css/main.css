@@ -1,0 +1,1000 @@
+/*
+Opacity:
+Firefox ab 3.0, Safari, Chrome, and Opera, IE9+ Old Mozilla Firefox 2, Netscape Navigator
+    Old Safari, Google Chrome, Chromium IE 8 IE 6-8 IE 6-7*/
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Orbitron:900);
+@font-face {
+    font-family: 'Terminat';
+    src: url("../fonts/Terminat.TTF") format("truetype");
+}
+body{
+
+    overflow-x: hidden;
+    background-color:#222 ;
+
+}
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+
+}
+
+/* ==========================================================================
+                                       Navbar
+   ========================================================================== */
+.navbar-inverse .navbar-nav > li > a {
+    color: #9D9D9D;
+    font-family: 'Orbitron', Lucida Grande, Arial,serif;
+    font-size: 2.4em;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #FFF;
+    background-color: #948158;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 30px;
+}
+.navbar-wrapper{
+    background-color:#222 ;
+}
+.navigation  {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+.header-logo-hlaf-top img{
+    margin-bottom: -2px;
+}
+.header-logo-header img{
+    margin-bottom: 102px ;margin-top: 130px
+}
+nav#Amenu{
+    border-bottom: 0.2em solid #82541b;
+    border-top: 0.2em solid #82541b;
+    border-right: 0.2em solid #82541b;
+    background-color: #222222;
+    height: 100px;
+    padding-top:15px;
+    width: 60%;
+    float: left;
+    border-radius: 10px;
+}
+nav#Bmenu{
+    border-bottom: 0.2em solid #222222;
+    border-top: 0.2em solid #222222;
+
+    top:-300px ;
+    background: #553714;
+    width: 60%;
+    float: right;
+
+}
+
+.wraper-header{
+   min-height: 760px;
+
+    background: url("../img/template-cafe-bg.jpg")  no-repeat scroll 0px 0px  ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+}
+.header-gallery{
+   height: auto;
+}
+.header-inner h1{
+    color:#9c7c58;
+    font-family: 'Orbitron', Lucida Grande, Arial,serif;
+}
+.header-inner p{
+    color: #9d9d9d;
+    font-family: 'Orbitron', Lucida Grande, Arial,serif;
+}
+/*-------------------------------Start of Gallery--------------------------------*/
+.gallery_1 .btn {
+
+    display: block;
+    padding: 0 0;
+
+}
+
+.gallery_1 {
+
+    padding: 0px 0px
+}
+
+.gallery_1:hover {
+
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    opacity: 0.68;
+    -moz-opacity: 0.68;
+    -khtml-opacity: 0.68;
+
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=68);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=68);
+    filter:alpha(opacity=68);
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+/*-------------------------------END of Gallery--------------------------------*/
+/*-------------------------------start of wraper-break--------------------------------*/
+.wraper-break {
+    min-height:170px;
+    background-color: #9d9d9d;
+
+
+
+}
+.wraper-break h1{
+
+
+    color: #111111;
+    font-family: 'Orbitron', Lucida Grande, Arial,serif;
+
+}
+.wraper-break p{
+
+
+    color: #82541b;
+    font-family: 'Orbitron', Lucida Grande, Arial,serif;
+
+}
+.wraper-break-info {
+    min-height: 200px;
+
+}
+.wraper-break-info h1 {
+padding-top: 50px;
+    font-family: 'Orbitron', Lucida Grande, Arial,serif;
+    color:#f2f2f2;
+}
+.wraper-break-info p {
+
+    font-family: 'Orbitron', Lucida Grande, Arial,serif;
+    color:#929292;
+}
+
+.title-location{
+    color: #929292;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: #432a12;
+    padding: 20px 20px;
+
+
+}
+.panel-default > .panel-heading {
+    color: #c3c3c3;
+    background-color: #575454;
+    border-color: #DDD;
+}
+.panel-heading a{
+    text-decoration: none;
+
+}
+.panel-heading a:hover{
+    color: #020001;
+
+}
+/*-------------------------------END of wraper-break--------------------------------*/
+
+ /*-------------------------------Start of wraper-cafe--------------------------------*/
+.wraper-menu-cafe {
+    min-height:760px;
+
+    background:#421c0e;
+
+}
+.wraper-menu-cafe h2  {
+   color: #f2f2f2;
+}
+.wraper-menu-cafe p  {
+    color: #9d9d9d;
+}
+.header-inner h1{
+font-size: 100px
+}
+
+.menu_head{
+    padding-top: 0;
+}
+.menu_head img{
+    border-bottom: 0.3em solid #f2f2f2;
+    border-right: 0.3em solid #f2f2f2;
+    border-left: 0.3em solid #f2f2f2;
+}
+.gallery h2:hover{
+    color: #0c0200
+}
+.gallery p:hover{
+    color: #0c0200;
+    font-size: 17px;
+
+}
+.gallery{
+    min-height: 191px;
+    background: #4d3111;
+
+    color: #f2f2f2;
+}
+.carousel-caption {
+
+    padding-bottom: 23%;
+}
+.carousel-caption p{
+
+    padding: 30px 30px;
+    background: #0c0200;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.gallery:hover {
+    background: url("../img/template-cafe-cakcafe-04.jpg") no-repeat scroll 0px 0px  ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    text-align:center;
+
+
+    /*Firefox ab 3.0, Safari, Chrome, and Opera, IE9+ Old Mozilla Firefox 2, Netscape Navigator
+    Old Safari, Google Chrome, Chromium IE 8 IE 6-8 IE 6-7*/
+
+    opacity: 0.68;
+    -moz-opacity: 0.68;
+    -khtml-opacity: 0.68;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=68);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=68);
+    filter:alpha(opacity=68);
+    
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+
+.view .mask,.view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.view img {
+    display: block;
+    position: relative;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0;
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center;
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0 0 1px #000;
+    -moz-box-shadow: 0 0 1px #000;
+    box-shadow: 0 0 1px #000;
+}
+.view a.info:hover {
+    -webkit-box-shadow: 0 0 5px #000;
+    -moz-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+}
+/* NINTH EXAMPLE*/
+
+
+
+.view-ninth .content a h2{ color: #ffffff
+}
+.view-ninth .content {
+    cursor: pointer
+background: rgba(0, 0, 0, 0.9);
+    height: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+
+    overflow: hidden;
+    -webkit-transform: rotate(-33.5deg) translate(-112px, 166px);
+    -moz-transform: rotate(-33.5deg) translate(-112px, 166px);
+    -o-transform: rotate(-33.5deg) translate(-112px, 166px);
+    -ms-transform: rotate(-33.5deg) translate(-112px, 166px);
+    transform: rotate(-33.5deg) translate(-112px, 166px);
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transition: all 0.4s ease-in-out 0.3s;
+    -moz-transition: all 0.4s ease-in-out 0.3s;
+    -o-transition: all 0.4s ease-in-out 0.3s;
+    transition: all 0.4s ease-in-out 0.3s;
+}
+.view-ninth h2 {
+    background: transparent;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.view-ninth a.info {
+    display: none;
+}
+.view-ninth:hover .content {
+    background: #111111;
+    height: 120px;
+    width: 100%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    top: 40px;
+    -webkit-transform: rotate(0deg) translate(0, 0);
+    -moz-transform: rotate(0deg) translate(0, 0);
+    -o-transform: rotate(0deg) translate(0, 0);
+    -ms-transform: rotate(0deg) translate(0, 0);
+    transform: rotate(0deg) translate(0, 0);
+}
+
+/*-------------------------------END of wraper-menu-cafe--------------------------------*/
+
+.modal-body{
+    background: #432a12;
+}
+.dl-horizontal{
+    color: #ffffff;
+}
+.carousel-inner{
+    border:0.2em solid #432a12;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.carousel-control {
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.form-horizontal .form-group {
+    padding-top: 40px;
+
+}
+.modal-content{
+    border-right: 0.3em solid #432a12;
+    border-left: 0.3em solid #432a12;
+}
+#Aliweb_pupUp iframe{
+    border: medium none;
+    overflow: hidden;
+    width: 454px;
+    height: 220px;
+    float: right;
+
+}
+/*-------------------------------start of Contact--------------------------------*/
+.wraper-Contact {
+    min-height:760px;
+    background:#4e3c26 ;
+
+}
+.Copyright{
+    min-height: 50px;
+    background: #020001;
+    color: #82541b;
+
+}
+.Contact-inner h1{
+    font-family: 'Oswald', sans-serif;
+    color: #cab485;
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+.Contact{
+    min-height:760px;
+
+}
+.Contact-inner{
+    padding:50px 50px 0 50px;
+
+}
+.contact-outside{
+    padding-top: 100px;
+    background-color: #222222;
+    color: #f2f2f2;
+   min-height: 619px;
+
+}
+.logo-template{
+    padding-bottom:50px;
+}
+
+.openingtime{
+    padding-top: 50px;
+    background: url("../img/template-cafe-contact-openingtime.jpg") no-repeat scroll 0px 0px  ;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    min-height: 619px;
+}
+.openingtime h3{
+    color: #9d9d9d;
+}
+.contact-outside img{
+    cursor: pointer;
+}
+.contact-outside img:hover{
+    opacity: 0.68;
+    -moz-opacity: 0.68;
+    -khtml-opacity: 0.68;
+
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=68);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=68);
+    filter:alpha(opacity=68);
+}
+.media-tittle h3{
+    color: #c3c3c3;
+    padding: 20px 20px;
+    background: #000000;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.media-inner-1 {
+    color: #c3c3c3;
+    background: #110806
+}
+.media-inner-2 {
+    color: #c3c3c3;
+    background: #0c0200
+}
+.media-inner-3 {
+    color: #c3c3c3;
+    background: #05050e
+}
+#PopupWidget_window {
+    display:none;
+    background: rgba(5, 1, 0, 0.80);
+
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:99999;
+    -webkit-box-shadow: inset 0 0 50px 0 #ffffff;
+    -moz-box-shadow: inset 0 0 50px 0 #ffffff;
+    box-shadow: inset 0 0 50px 0 #ffffff;
+}
+#widgetExit {
+    width:100%;
+    height:100%;
+}
+#Aliweb_popUp  {
+
+    top:58%;
+    left:63%;
+    margin:-220px 0 0 -375px;
+    width: 520px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+    border:0.7em solid #a3a3a3;
+    position:absolute;
+    -webkit-box-shadow: 0px 0px 30px 14px rgba(72, 141, 217, 0.97);
+    -moz-box-shadow:    0px 0px 30px 14px rgba(72, 141, 217, 0.97);
+    box-shadow:         0px 0px 30px 14px rgba(72, 141, 217, 0.97);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+
+
+
+}
+#Widget_close .close {
+
+    opacity: 1;
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -36px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+#Widget_close .close:hover{
+    background: #05050e;
+}
+.Widget_content_line {
+
+
+    width:420;
+    margin:0 auto;
+    background:#F3F3F3;
+
+    position:relative;
+
+
+}
+ .Contact .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+
+}
+ #PopupWidget_window .form-group{
+     margin-left: 40px
+
+ }
+#PopupWidget_window button{
+    margin-right: 20px
+
+}
+
+#PopupWidget_window .form-control {
+
+    width: none;
+    height: 52px;
+   }
+#PopupWidget_window form {
+
+padding-top: 20px;
+
+}
+.subscribe {
+    color: #ffffff;
+    background-color: #488dd9;
+    border-color: #D7D7DB;
+}
+
+.subscribe:hover,
+.subscribe:focus,
+.subscribe:active,
+.subscribe.active,
+.open .dropdown-toggle.subscribe {
+    color: #ffffff;
+    background-color: #212021;
+    border-color: #D7D7DB;
+}
+
+.subscribe:active,
+.subscribe.active,
+.open .dropdown-toggle.subscribe {
+    background-image: none;
+}
+
+.subscribe.disabled,
+.subscribe[disabled],
+fieldset[disabled] .subscribe,
+.subscribe.disabled:hover,
+.subscribe[disabled]:hover,
+fieldset[disabled] .subscribe:hover,
+.subscribe.disabled:focus,
+.subscribe[disabled]:focus,
+fieldset[disabled] .subscribe:focus,
+.subscribe.disabled:active,
+.subscribe[disabled]:active,
+fieldset[disabled] .subscribe:active,
+.subscribe.disabled.active,
+.subscribe[disabled].active,
+fieldset[disabled] .subscribe.active {
+    background-color: #8A0852;
+    border-color: #D7D7DB;
+}
+
+.subscribe .badge {
+    color: #8A0852;
+    background-color: #ffffff;
+}
+
+.scroll-top {
+    cursor: pointer;
+    position:fixed;
+    bottom:0;
+    right:6%;
+    z-index:100;
+    background: #f2f3f2;
+    font-size:24px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+.scroll-top a:link,.scroll-top a:visited {
+    color:#222;
+}
+/*-------------------------------END of Contact--------------------------------*/
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1.9em;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1.3em;
+    }
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1em;
+    }
+    .navbar-wrapper {
+        background-color: #3f1e14;
+
+        z-index:100;
+    }
+    .navbar-nav{
+        z-index:1000;
+    }
+
+    .aboutus-inner p{
+        font-size: 14px;
+        max-height: 250px;
+
+
+    }
+
+
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .navbar-inverse .navbar-nav > li > a {
+
+
+        font-size: 1em;
+    }
+    .navbar-wrapper {
+        background-color: #3f1e14;
+
+
+    }
+   .navbar-nav{
+       z-index:1000;
+   }
+
+
+.contact-outside h1{
+    font-size: 30px;
+}
+    .openingtime h1{
+        font-size: 30px;
+    }
+
+    .openingtime p {
+        font-size: 16px;
+
+    }
+    .carousel-caption {
+
+        padding-bottom: 0;
+    }
+    .carousel-caption p {
+
+        padding:5px 5px;
+    }
+
+    .close {
+
+        margin-right: 101px;
+    }
+
+
+
+
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
